@@ -1,0 +1,40 @@
+body {
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.search-bar-container {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 50px 0 20px 0;
+}
+
+#searchInput {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#searchButton {
+    width: 100px;
+    height: 35px;
+}
+
+.center-text {
+    margin: 0 auto;
+}
+
+.found {
+    color: #85c285;
+}
+
+.not-found {
+    color: #ea3b52;
+}
